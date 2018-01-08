@@ -7,7 +7,10 @@ There is also a related repository [Arduino library for LCD5110 display module](
 
 This library utilises Raspberry Pi SPI0 interfaces together with other GPIO pins. The LCD module is connected with Raspbery Pi P1 header pins as follow:
 
-LCD --- P1 header pin (BCM port)  CLK --- P1-23 (SPI0 - SCLK)  DN --- P1-19 (SPI0 - MOSI)  DC --- P1-18 (BCM 24)
+LCD --- P1 header pin (BCM port)
+CLK --- P1-23 (SPI0 - SCLK)
+DN --- P1-19 (SPI0 - MOSI)
+DC --- P1-18 (BCM 24)
 RST --- P1-16 (BCM 23)
 SCE --- P1-24 (SPI0 - CE0)
 LED --- P1-15 (BCM 22)
